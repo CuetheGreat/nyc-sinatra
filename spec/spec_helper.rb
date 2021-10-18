@@ -20,7 +20,7 @@ RSpec.configure do |config|
 end
 
 
-ActiveRecord::Base.logger.level = 1
+# ActiveRecord::Base.logger.level = 1
 
 def app
   Rack::Builder.parse_file('config.ru').first

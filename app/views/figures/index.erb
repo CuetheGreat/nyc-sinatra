@@ -1,0 +1,3 @@
+<% @figures.each do |fig| %>
+<a href="/figures/<%=fig.id %>"><%= fig.name %>: <%= fig.titles.first.name if fig.titles.first  %></a><br>
+<% end %>
